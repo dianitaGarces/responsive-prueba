@@ -45,11 +45,11 @@ img.b-lazy{
 	transform: rotate(0deg);
 }
 figure{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	background-image: url("../images/Pacman.gif");
 	background-repeat: no-repeat;
 	background-position: center;
-	max-width: 700px;
+	max-width: 350px;
 	overflow:hidden;
 }
 @media screen and (max-width: 800px) {
