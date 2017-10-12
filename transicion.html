@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Transición Imagen</title>
+	<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-whidth, initial-scale=1 user-scalable=no"/>
+ 	<link rel="stylesheet" href="css/estilos.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+	</head>
+	<body>
+		<section id="carga">
+			<div class="contenedor">
+				<h1 class="titulo t2">
+					Thruster
+				</h1>
+			</div>
+			<div class="contenedor">
+				<div class="imagen">
+				
+				<figure>
+					<img class="b-lazy" data-src="images/thruster.jpg"  width="700" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNUiFOoBwACYwEfdqyQEAAAAABJRU5ErkJggg=="  alt="thruster" />
+				</figure>
+				<figure>	
+					<img class="b-lazy" data-src="images/thruster2.jpg" width="700" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNUiFOoBwACYwEfdqyQEAAAAABJRU5ErkJggg=="  alt="thruster2"/>
+				</figure>
+				<figure>
+					<img class="b-lazy" data-src="images/thruster3.jpg" width="700" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNUiFOoBwACYwEfdqyQEAAAAABJRU5ErkJggg=="  alt="thruster3"/>
+				</figure>
+				
+				</div>
+			</div>
+		</section>
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.5.4/blazy.min.js"></script>
+	<script>
+		var bLazy = new Blazy({
+			selector: 'img'
+			//container: '.container'
+		});
+    </script>
+</html>

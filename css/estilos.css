@@ -1,0 +1,90 @@
+.contenedor{
+	padding: 10px;
+	position: relative;
+	display:flex;
+	justify-content: center;
+	
+}
+.titulo{
+	font-size: 140px;
+	color: #581F13;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	font-family: 'Lobster Two', cursive;
+}
+body{
+	background: #C1ACA7;
+}
+.t2{
+	font-size:100px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.imagen{
+    flex-direction: column;
+    display: flex;
+	padding-bottom: 20px;
+}
+
+img{
+	padding-bottom: 20px;
+	object-fit: cover;
+	/*opacity:0;
+    transform: scale(3);
+    transition: .50s;
+	left: -80px;*/
+	transform: rotate(60deg);
+	
+}
+img.b-lazy{
+	/*opacity:1;
+    transform: scale(1);
+	left: 0;*/
+	transform: rotate(0deg);
+}
+figure{
+	border: 1px solid red;
+	background-image: url("../images/Pacman.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 700px;
+	overflow:hidden;
+}
+@media screen and (max-width: 800px) {
+	body{
+		background: #C1ACA7;
+	}
+	.titulo{
+		color: #621758;
+		font-size: 130px;
+	}
+}
+@media screen and (max-width: 767px) {
+	body{
+		background: #21364B;
+	}
+	.titulo{
+		color: #C62A4D;
+		font-size: 120px;
+	}
+}
+@media screen and (max-width: 650px) {
+	body{
+		background: #238086;
+	}
+	.titulo{
+		color: #2A0E89;
+		font-size: 110px;
+	}
+}
+@media screen and (max-width: 500px) {
+	body{
+		background: #461F38;
+	}
+	.titulo{
+		color: #2AC2C6;
+		font-size: 100px;
+	}
+}
